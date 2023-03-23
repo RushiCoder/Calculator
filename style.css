@@ -1,0 +1,52 @@
+body {
+    font-family: cursive;
+    background: #27282c;
+}
+.button {
+    width: 66px;
+    font-family: cursive;
+    padding: 20px;
+    margin: 0 3px;
+    color: #7e798b;
+    border: 2px solid #080707e9;
+    border-radius: 9px;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 25px var(--clr);
+   
+}
+
+.row {
+    margin: 8px 0px;
+}
+
+.row .input {
+   font-size: 20px;
+   margin: 0;
+   padding: 10px 0px;
+   border: 2px solid #080707e9;
+   border-radius: 5px;
+   font-family: cursive;
+   margin: 0 3px;
+   color: #7e798b;
+   border: 2px solid #080707e9;
+   border-radius: 9px;
+   position: relative;
+   background: #fff;
+   transition: 0.5s;
+}
+.input:hover {
+    background: var(--clr);
+    letter-spacing: 0.1em;
+    box-shadow: 0 0 25px var(--clr);
+}
